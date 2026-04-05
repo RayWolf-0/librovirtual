@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4D93D534-5B37-6685-763C-BE1482E7BEE8" containerWithKeyObject="C6BF0A10-D02E-FF8C-9362-8293CE637582" localFKIndex="96630322-6303-3FBE-E8F5-56F4420D29F3" name="PERSONAL_ADMINISTRATIVO_ASIGNATURAS_FK">
+<createdBy>lyla_</createdBy>
+<createdTime>2026-04-04 21:51:26 UTC</createdTime>
+<ownerDesignName>ModeloLibroVirtual</ownerDesignName>
+<referredTableLongName>ASIGNATURAS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B25FF8DB-1AE8-22E8-FC46-8FB99400CE08</referredTableID>
+<keyObject>7A275CB6-0195-8792-0E9E-34EED5496BB2</keyObject>
+<referredKeyID>7A275CB6-0195-8792-0E9E-34EED5496BB2</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_ASIGNATURA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

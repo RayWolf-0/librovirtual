@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B25FF8DB-1AE8-22E8-FC46-8FB99400CE08" name="ASIGNATURAS">
+<createdBy>lyla_</createdBy>
+<createdTime>2026-04-04 16:48:33 UTC</createdTime>
+<ownerDesignName>ModeloLibroVirtual</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_ASIGNATURA" id="8038ED00-595A-7000-CB2B-482333256392">
+<createdBy>lyla_</createdBy>
+<createdTime>2026-04-04 16:50:21 UTC</createdTime>
+<ownerDesignName>ModeloLibroVirtual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_ASIGNATURA" id="5F41CFF1-1279-C477-EF99-08E4F68117DF">
+<createdBy>lyla_</createdBy>
+<createdTime>2026-04-04 16:50:21 UTC</createdTime>
+<ownerDesignName>ModeloLibroVirtual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7A275CB6-0195-8792-0E9E-34EED5496BB2" name="ASIGNATURAS_PK">
+<createdBy>lyla_</createdBy>
+<createdTime>2026-04-04 16:50:21 UTC</createdTime>
+<ownerDesignName>ModeloLibroVirtual</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8038ED00-595A-7000-CB2B-482333256392"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

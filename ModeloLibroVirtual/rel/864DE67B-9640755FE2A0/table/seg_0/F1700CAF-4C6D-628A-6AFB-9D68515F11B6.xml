@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F1700CAF-4C6D-628A-6AFB-9D68515F11B6" name="APODERADOS">
+<createdBy>lyla_</createdBy>
+<createdTime>2026-04-04 21:53:30 UTC</createdTime>
+<ownerDesignName>ModeloLibroVirtual</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_APODERADO" id="F9F5FB1A-6A22-25BA-ED6B-9C62274B8637">
+<createdBy>lyla_</createdBy>
+<createdTime>2026-04-04 21:54:38 UTC</createdTime>
+<ownerDesignName>ModeloLibroVirtual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TELEFONO" id="9A6536D9-5048-4389-FA79-8329E48F01E8">
+<createdBy>lyla_</createdBy>
+<createdTime>2026-04-04 21:54:38 UTC</createdTime>
+<ownerDesignName>ModeloLibroVirtual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PARENTESCO" id="543A0825-916A-1FF1-C2D0-6EC66BA001C6">
+<createdBy>lyla_</createdBy>
+<createdTime>2026-04-04 21:54:38 UTC</createdTime>
+<ownerDesignName>ModeloLibroVirtual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTUDIANTES_ID_ESTUDIANTE" id="DCC7E6C3-7FF5-3B3C-5750-EA324DA00BFD">
+<createdBy>lyla_</createdBy>
+<createdTime>2026-04-04 21:54:53 UTC</createdTime>
+<ownerDesignName>ModeloLibroVirtual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1CDDD853-F374-A0E6-2B2A-3F664B2C1128" referredColumn="BFB8AAF0-EBAF-2EB1-6A51-354CE4FAE780"/>
+</associations>
+</Column>
+<Column name="CURSO_ID_CURSO" id="0C95BF56-251B-D44C-2EA3-692CD36C0F16">
+<createdBy>lyla_</createdBy>
+<createdTime>2026-04-04 21:55:03 UTC</createdTime>
+<ownerDesignName>ModeloLibroVirtual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="680F0427-B534-D5B6-9D2A-1F7DF78622B8" referredColumn="E551D1B0-DC03-FC49-9F5E-0E93D69C6CB1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7305E431-C239-43C7-3604-B912132FCEA0" name="APODERADOS_PK">
+<createdBy>lyla_</createdBy>
+<createdTime>2026-04-04 21:54:38 UTC</createdTime>
+<ownerDesignName>ModeloLibroVirtual</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F9F5FB1A-6A22-25BA-ED6B-9C62274B8637"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5F11CBEC-2B79-741C-E5F8-7B52A6201B04" name="APODERADOS_ESTUDIANTES_FK">
+<createdBy>lyla_</createdBy>
+<createdTime>2026-04-04 21:54:53 UTC</createdTime>
+<ownerDesignName>ModeloLibroVirtual</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DCC7E6C3-7FF5-3B3C-5750-EA324DA00BFD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="085A2CCB-B13A-0BA5-8195-12CFAC03F73E" name="APODERADOS_CURSO_FK">
+<createdBy>lyla_</createdBy>
+<createdTime>2026-04-04 21:55:03 UTC</createdTime>
+<ownerDesignName>ModeloLibroVirtual</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0C95BF56-251B-D44C-2EA3-692CD36C0F16"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

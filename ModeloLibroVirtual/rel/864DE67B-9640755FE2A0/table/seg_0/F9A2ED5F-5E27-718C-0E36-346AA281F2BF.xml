@@ -1,0 +1,137 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F9A2ED5F-5E27-718C-0E36-346AA281F2BF" name="MENSAJES">
+<createdBy>lyla_</createdBy>
+<createdTime>2026-04-04 21:45:21 UTC</createdTime>
+<ownerDesignName>ModeloLibroVirtual</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_MENSAJE" id="4E3EBFC8-EEBD-F9F5-C9C4-1BE5379E2849">
+<createdBy>lyla_</createdBy>
+<createdTime>2026-04-04 21:46:45 UTC</createdTime>
+<ownerDesignName>ModeloLibroVirtual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ASUNTO" id="5D2C606F-1221-B918-CB44-B8B11345A13D">
+<createdBy>lyla_</createdBy>
+<createdTime>2026-04-04 21:46:45 UTC</createdTime>
+<ownerDesignName>ModeloLibroVirtual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CONTENIDO" id="2C99ED68-BB50-1C45-B19F-597BD278AD82">
+<createdBy>lyla_</createdBy>
+<createdTime>2026-04-04 21:46:45 UTC</createdTime>
+<ownerDesignName>ModeloLibroVirtual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_ENVIO" id="58851058-CF7F-A714-063B-0CB1D51E857D">
+<createdBy>lyla_</createdBy>
+<createdTime>2026-04-04 21:46:45 UTC</createdTime>
+<ownerDesignName>ModeloLibroVirtual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTUDIANTES_ID_ESTUDIANTE" id="17AAC59C-B5BB-569E-D3C8-0037B835FB3F">
+<createdBy>lyla_</createdBy>
+<createdTime>2026-04-04 21:55:10 UTC</createdTime>
+<ownerDesignName>ModeloLibroVirtual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3262F8AF-5F40-819D-AA11-0184EBAE0FD1" referredColumn="BFB8AAF0-EBAF-2EB1-6A51-354CE4FAE780"/>
+</associations>
+</Column>
+<Column name="APODERADOS_ID_APODERADO" id="7BA7A689-E77B-B881-31C1-7EE8552268A0">
+<createdBy>lyla_</createdBy>
+<createdTime>2026-04-04 21:55:25 UTC</createdTime>
+<ownerDesignName>ModeloLibroVirtual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6CFC4A1A-56C5-E5E9-55A3-D1E654DEC373" referredColumn="F9F5FB1A-6A22-25BA-ED6B-9C62274B8637"/>
+</associations>
+</Column>
+<Column name="PERSONAL_ADMINISTRATIVO_ID_ADMIN" id="5A8F0E7F-7253-3034-A712-18EA4E66B94B">
+<createdBy>lyla_</createdBy>
+<createdTime>2026-04-04 21:56:02 UTC</createdTime>
+<ownerDesignName>ModeloLibroVirtual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="602FB14F-3D29-FFD5-E178-87CB758EEF0B" referredColumn="DADC52D2-EC4D-AE7F-4A54-4E48DC0AF9EE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4A70FFF0-661E-28C0-3A2B-FC27F5004470" name="MENSAJES_PK">
+<createdBy>lyla_</createdBy>
+<createdTime>2026-04-04 21:46:45 UTC</createdTime>
+<ownerDesignName>ModeloLibroVirtual</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4E3EBFC8-EEBD-F9F5-C9C4-1BE5379E2849"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="48B389ED-D16D-7FA3-977B-866B33660F7D" name="MENSAJES_ESTUDIANTES_FK">
+<createdBy>lyla_</createdBy>
+<createdTime>2026-04-04 21:55:10 UTC</createdTime>
+<ownerDesignName>ModeloLibroVirtual</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="17AAC59C-B5BB-569E-D3C8-0037B835FB3F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C88F2580-26A0-3101-8EBD-C530BFC023D6" name="MENSAJES_APODERADOS_FK">
+<createdBy>lyla_</createdBy>
+<createdTime>2026-04-04 21:55:25 UTC</createdTime>
+<ownerDesignName>ModeloLibroVirtual</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7BA7A689-E77B-B881-31C1-7EE8552268A0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DCF547CA-4555-9A69-81F9-1FA207ED095C" name="MENSAJES_PERSONAL_ADMINISTRATIVO_FK">
+<createdBy>lyla_</createdBy>
+<createdTime>2026-04-04 21:56:02 UTC</createdTime>
+<ownerDesignName>ModeloLibroVirtual</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5A8F0E7F-7253-3034-A712-18EA4E66B94B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

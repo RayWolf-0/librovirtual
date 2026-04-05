@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="1CAC2B95-EC3E-05F5-098E-180F88771A98" mainViewID="1046FDB2-6F06-5DF6-ECE0-A6F667092387">
+<createdBy>lyla_</createdBy>
+<createdTime>2026-04-04 16:09:32 UTC</createdTime>
+<ownerDesignName>ModeloLibroVirtual</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

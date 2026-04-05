@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="ABB31900-AA99-3DB7-8D66-50B34DC112ED" containerWithKeyObject="96D6AED8-008C-1571-490D-6378599EB609" localFKIndex="999BAD51-1649-297F-BF9B-A439FDE34C5C" name="CALIFICACIONES_ESTUDIANTES_FK">
+<createdBy>lyla_</createdBy>
+<createdTime>2026-04-04 17:02:20 UTC</createdTime>
+<ownerDesignName>ModeloLibroVirtual</ownerDesignName>
+<referredTableLongName>ESTUDIANTES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>72571538-0716-F0ED-AFBF-6386CDC32316</referredTableID>
+<keyObject>20DF209F-3A68-FFE7-E190-2E3B3EE8E937</keyObject>
+<referredKeyID>20DF209F-3A68-FFE7-E190-2E3B3EE8E937</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_ESTUDIANTE</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

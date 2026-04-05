@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C5FEAE2C-53E0-EA55-6BC5-982F07805F28" name="ANOTACIONES">
+<createdBy>lyla_</createdBy>
+<createdTime>2026-04-04 21:36:33 UTC</createdTime>
+<ownerDesignName>ModeloLibroVirtual</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_ANOTACIONES" id="E7005ECB-988F-E6B7-E4A0-29BD2326C5F7">
+<createdBy>lyla_</createdBy>
+<createdTime>2026-04-04 21:39:07 UTC</createdTime>
+<ownerDesignName>ModeloLibroVirtual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO" id="C6E768D5-91D1-C65B-674D-8671597C7DEC">
+<createdBy>lyla_</createdBy>
+<createdTime>2026-04-04 21:39:07 UTC</createdTime>
+<ownerDesignName>ModeloLibroVirtual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="5238B9B5-8325-53C1-A13D-756E13605749">
+<createdBy>lyla_</createdBy>
+<createdTime>2026-04-04 21:39:07 UTC</createdTime>
+<ownerDesignName>ModeloLibroVirtual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA" id="BDB1B3D8-DE64-A93D-DECC-BDA35A6B1F06">
+<createdBy>lyla_</createdBy>
+<createdTime>2026-04-04 21:39:07 UTC</createdTime>
+<ownerDesignName>ModeloLibroVirtual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTUDIANTES_ID_ESTUDIANTE" id="196768D6-F554-8B7D-98C0-383F4C8C22C8">
+<createdBy>lyla_</createdBy>
+<createdTime>2026-04-04 21:39:13 UTC</createdTime>
+<ownerDesignName>ModeloLibroVirtual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D409B50F-3BA5-6E58-129B-99BCD348F620" referredColumn="BFB8AAF0-EBAF-2EB1-6A51-354CE4FAE780"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3E7D04F6-08BA-06DB-22E6-CB835808FCEF" name="ANOTACIONES_PK">
+<createdBy>lyla_</createdBy>
+<createdTime>2026-04-04 21:39:07 UTC</createdTime>
+<ownerDesignName>ModeloLibroVirtual</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E7005ECB-988F-E6B7-E4A0-29BD2326C5F7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5CAB4BE3-9BB5-5656-DC2E-D24F260102AB" name="ANOTACIONES_ESTUDIANTES_FK">
+<createdBy>lyla_</createdBy>
+<createdTime>2026-04-04 21:39:13 UTC</createdTime>
+<ownerDesignName>ModeloLibroVirtual</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="196768D6-F554-8B7D-98C0-383F4C8C22C8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

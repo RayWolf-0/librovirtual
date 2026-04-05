@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="602FB14F-3D29-FFD5-E178-87CB758EEF0B" containerWithKeyObject="F9A2ED5F-5E27-718C-0E36-346AA281F2BF" localFKIndex="DCF547CA-4555-9A69-81F9-1FA207ED095C" name="MENSAJES_PERSONAL_ADMINISTRATIVO_FK">
+<createdBy>lyla_</createdBy>
+<createdTime>2026-04-04 21:56:02 UTC</createdTime>
+<ownerDesignName>ModeloLibroVirtual</ownerDesignName>
+<referredTableLongName>PERSONAL_ADMINISTRATIVO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C6BF0A10-D02E-FF8C-9362-8293CE637582</referredTableID>
+<keyObject>83ABF102-A7F2-F2CE-B597-EB5588D1E1EA</keyObject>
+<referredKeyID>83ABF102-A7F2-F2CE-B597-EB5588D1E1EA</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_ADMIN</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

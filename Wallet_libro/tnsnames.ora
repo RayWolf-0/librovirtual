@@ -1,0 +1,12 @@
+libro_high = (description= (retry_count=20)(retry_delay=3)(address=(protocol=tcps)(port=1522)(host=adb.sa-santiago-1.oraclecloud.com))(connect_data=(service_name=g045b610bb5c32c_libro_high.adb.oraclecloud.com))(security=(ssl_server_dn_match=yes)))
+
+libro_medium = (description= (retry_count=20)(retry_delay=3)(address=(protocol=tcps)(port=1522)(host=adb.sa-santiago-1.oraclecloud.com))(connect_data=(service_name=g045b610bb5c32c_libro_medium.adb.oraclecloud.com))(security=(ssl_server_dn_match=yes)))
+
+libro_low = (description= (retry_count=20)(retry_delay=3)(address=(protocol=tcps)(port=1522)(host=adb.sa-santiago-1.oraclecloud.com))(connect_data=(service_name=g045b610bb5c32c_libro_low.adb.oraclecloud.com))(security=(ssl_server_dn_match=yes)))
+
+libro_tp = (description= (retry_count=20)(retry_delay=3)(address=(protocol=tcps)(port=1522)(host=adb.sa-santiago-1.oraclecloud.com))(connect_data=(service_name=g045b610bb5c32c_libro_tp.adb.oraclecloud.com))(security=(ssl_server_dn_match=yes)))
+
+libro_tpurgent = (description= (retry_count=20)(retry_delay=3)(address=(protocol=tcps)(port=1522)(host=adb.sa-santiago-1.oraclecloud.com))(connect_data=(service_name=g045b610bb5c32c_libro_tpurgent.adb.oraclecloud.com))(security=(ssl_server_dn_match=yes)))
+
+
+

@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6DD2B9F1-7EA4-5BDE-DBF1-CC359C6841CE" name="ASISTENCIA">
+<createdBy>lyla_</createdBy>
+<createdTime>2026-04-04 21:31:58 UTC</createdTime>
+<ownerDesignName>ModeloLibroVirtual</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_ASISTENCIA" id="81F94DA2-1F67-AB60-5207-CC520D2FE6A1">
+<createdBy>lyla_</createdBy>
+<createdTime>2026-04-04 21:33:38 UTC</createdTime>
+<ownerDesignName>ModeloLibroVirtual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA" id="3742AC06-1ECD-F832-3EED-C16FB5A09313">
+<createdBy>lyla_</createdBy>
+<createdTime>2026-04-04 21:33:38 UTC</createdTime>
+<ownerDesignName>ModeloLibroVirtual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO" id="F9CB76D9-BFDC-C9E0-2FB4-BAC262992EE7">
+<createdBy>lyla_</createdBy>
+<createdTime>2026-04-04 21:33:38 UTC</createdTime>
+<ownerDesignName>ModeloLibroVirtual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTUDIANTES_ID_ESTUDIANTE" id="6D6228D6-9B4C-47A3-9A51-8CF4BFF81D21">
+<createdBy>lyla_</createdBy>
+<createdTime>2026-04-04 21:34:33 UTC</createdTime>
+<ownerDesignName>ModeloLibroVirtual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B1DAF009-95CC-30D2-1FAA-C8D0BC9BA7B9" referredColumn="BFB8AAF0-EBAF-2EB1-6A51-354CE4FAE780"/>
+</associations>
+</Column>
+<Column name="ASIGNATURAS_ID_ASIGNATURA" id="0157B6FF-01C0-3035-BAEF-491AD056E193">
+<createdBy>lyla_</createdBy>
+<createdTime>2026-04-04 21:34:38 UTC</createdTime>
+<ownerDesignName>ModeloLibroVirtual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9C0EB480-7C94-1B05-5BE0-7B1D57A25884" referredColumn="8038ED00-595A-7000-CB2B-482333256392"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9FBFCF3E-531D-5D65-71FF-46ED33C5C754" name="ASISTENCIA_PK">
+<createdBy>lyla_</createdBy>
+<createdTime>2026-04-04 21:33:38 UTC</createdTime>
+<ownerDesignName>ModeloLibroVirtual</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="81F94DA2-1F67-AB60-5207-CC520D2FE6A1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="62F317B5-B579-08C5-57D1-19816E4D0C26" name="ASISTENCIA_ESTUDIANTES_FK">
+<createdBy>lyla_</createdBy>
+<createdTime>2026-04-04 21:34:33 UTC</createdTime>
+<ownerDesignName>ModeloLibroVirtual</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6D6228D6-9B4C-47A3-9A51-8CF4BFF81D21"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="46E49FAF-8D44-1415-D874-6CFEB75A3C38" name="ASISTENCIA_ASIGNATURAS_FK">
+<createdBy>lyla_</createdBy>
+<createdTime>2026-04-04 21:34:38 UTC</createdTime>
+<ownerDesignName>ModeloLibroVirtual</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0157B6FF-01C0-3035-BAEF-491AD056E193"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

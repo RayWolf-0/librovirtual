@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="BE2C676F-3BA6-B166-4DF4-0D391367B78E">
+<createdBy>lyla_</createdBy>
+<createdTime>2026-04-04 16:09:32 UTC</createdTime>
+<ownerDesignName>ModeloLibroVirtual</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

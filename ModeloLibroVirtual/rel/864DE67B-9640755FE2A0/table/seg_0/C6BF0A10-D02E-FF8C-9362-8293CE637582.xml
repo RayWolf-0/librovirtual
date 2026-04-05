@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C6BF0A10-D02E-FF8C-9362-8293CE637582" name="PERSONAL_ADMINISTRATIVO">
+<createdBy>lyla_</createdBy>
+<createdTime>2026-04-04 21:48:51 UTC</createdTime>
+<ownerDesignName>ModeloLibroVirtual</ownerDesignName>
+<ordsAlias>table_10</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_ADMIN" id="DADC52D2-EC4D-AE7F-4A54-4E48DC0AF9EE">
+<createdBy>lyla_</createdBy>
+<createdTime>2026-04-04 21:50:16 UTC</createdTime>
+<ownerDesignName>ModeloLibroVirtual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CARGO" id="8B33FF0C-A821-9997-3D8E-EEC3594E91DE">
+<createdBy>lyla_</createdBy>
+<createdTime>2026-04-04 21:50:16 UTC</createdTime>
+<ownerDesignName>ModeloLibroVirtual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_CONTRATACION" id="A3E09D85-66E9-2A71-10CF-DD74E333E775">
+<createdBy>lyla_</createdBy>
+<createdTime>2026-04-04 21:50:16 UTC</createdTime>
+<ownerDesignName>ModeloLibroVirtual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CURSO_ID_CURSO" id="C645DD8F-ED0A-7313-4B00-217D2C988876">
+<createdBy>lyla_</createdBy>
+<createdTime>2026-04-04 21:50:48 UTC</createdTime>
+<ownerDesignName>ModeloLibroVirtual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8DB992A3-2551-8670-2784-491413773776" referredColumn="E551D1B0-DC03-FC49-9F5E-0E93D69C6CB1"/>
+</associations>
+</Column>
+<Column name="ASIGNATURAS_ID_ASIGNATURA" id="38F13463-ACE6-F4ED-9B27-EA91D4F32EA7">
+<createdBy>lyla_</createdBy>
+<createdTime>2026-04-04 21:51:26 UTC</createdTime>
+<ownerDesignName>ModeloLibroVirtual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4D93D534-5B37-6685-763C-BE1482E7BEE8" referredColumn="8038ED00-595A-7000-CB2B-482333256392"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="83ABF102-A7F2-F2CE-B597-EB5588D1E1EA" name="PERSONAL_ADMINISTRATIVO_PK">
+<createdBy>lyla_</createdBy>
+<createdTime>2026-04-04 21:50:16 UTC</createdTime>
+<ownerDesignName>ModeloLibroVirtual</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DADC52D2-EC4D-AE7F-4A54-4E48DC0AF9EE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="835ADB28-DF0C-D05C-C4EC-60B56B08DA39" name="PERSONAL_ADMINISTRATIVO_CURSO_FK">
+<createdBy>lyla_</createdBy>
+<createdTime>2026-04-04 21:50:48 UTC</createdTime>
+<ownerDesignName>ModeloLibroVirtual</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C645DD8F-ED0A-7313-4B00-217D2C988876"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="96630322-6303-3FBE-E8F5-56F4420D29F3" name="PERSONAL_ADMINISTRATIVO_ASIGNATURAS_FK">
+<createdBy>lyla_</createdBy>
+<createdTime>2026-04-04 21:51:26 UTC</createdTime>
+<ownerDesignName>ModeloLibroVirtual</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="38F13463-ACE6-F4ED-9B27-EA91D4F32EA7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
