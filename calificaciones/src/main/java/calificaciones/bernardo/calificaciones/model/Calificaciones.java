@@ -1,4 +1,4 @@
-package model;
+package calificaciones.bernardo.calificaciones.model;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.AllArgsConstructor;
@@ -19,7 +19,7 @@ public class Calificaciones {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long idCalificacion;
 
-    @Column(name = "VALOR_NOTA")
+    @Column(name = "VALOR_NOTA", columnDefinition = "NUMBER(3,1)")
     private Double valorNota;
 
     @Column(name = "ID_ESTUDIANTE")

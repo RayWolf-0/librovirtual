@@ -9,6 +9,16 @@
             "projectName": "usuarios",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-CalificacionesApplication<calificaciones>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "calificaciones.bernardo.calificaciones.CalificacionesApplication",
+            "projectName": "calificaciones",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
         }
     ]
 }
