@@ -19,6 +19,16 @@
             "projectName": "calificaciones",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-AsistenciaApplication<asistencia>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "asistencia.bernardo.asistencia.AsistenciaApplication",
+            "projectName": "asistencia",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
         }
     ]
 }

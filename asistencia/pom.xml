@@ -11,10 +11,10 @@
 		<relativePath />
 	</parent>
 
-	<groupId>calificaciones.bernardo</groupId>
-	<artifactId>calificaciones</artifactId>
+	<groupId>asistencia.bernardo</groupId>
+	<artifactId>asistencia</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>microservicio-calificaciones</name>
+	<name>microservicio-asistencia</name>
 
 	<properties>
 		<java.version>21</java.version>
